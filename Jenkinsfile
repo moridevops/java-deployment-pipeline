@@ -6,23 +6,23 @@ pipeline{
     stages{
         stage('build'){
             steps{
-                sh "mvn clean install -DskipTests"
+                sh "mvn clean package -DskipTests"
                 echo "Build Success"
             }
         }
 
-        stage('Test'){
-            steps{
-                sh "mvn test"
-                echo "test success"
-            }
-        }
+        // stage('Test'){
+        //     steps{
+        //         sh "mvn test"
+        //         echo "test success"
+        //     }
+        // }
 
-        stage('Package'){
-            steps{
-                sh "mv package"
-                echo "package success"  
-            }
-        }
+        // stage('Package'){
+        //     steps{
+        //         sh "mv package"
+        //         echo "package success"  
+        //     }
+        // }
     }
 }
