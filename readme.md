@@ -1,1 +1,1 @@
-Documentation for javaapp CI/CD pipeline.
+Documentation for java app CI/CD pipeline.
