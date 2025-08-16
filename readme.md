@@ -1,1 +1,3 @@
-Documentation for java app CI/CD pipeline.
+# java-ci-cd-pipeline ⚙️
+
+**Production-ready Java CI/CD pipeline featuring modern DevOps practices with Docker & Jenkins**
